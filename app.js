@@ -12,3 +12,6 @@ function writeDate() {
 }
 
 writeDate();
+
+var refreshEl = document.getElementById('refreshBtn');
+refreshEl.addEventListener('click', writeDate);
